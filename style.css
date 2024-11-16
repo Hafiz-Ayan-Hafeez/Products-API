@@ -1,0 +1,91 @@
+* {
+    cursor: pointer;
+}
+
+body {
+    background-color: #80808034;
+}
+
+.head {
+    text-align: center;
+    text-decoration: underline;
+    border: 7px solid #000000;
+    padding: 20px;
+    background-color: #ffd700;
+    border-radius: 30px;
+    font-size: 2.2rem;
+    margin: 20px 10px;
+    margin-bottom: 40px;
+}
+
+#container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.cards {
+    font-size: 1.2rem;
+    border: 5px solid #000000;
+    text-align: center;
+    background-color: #808080d8;
+    color: #000000;
+    padding: 20px;
+    margin: 40px 0px;
+    box-shadow: 3px 3px 2px 2px #000000;
+    border-radius: 20px;
+}
+
+.btn {
+    border: 3px solid #000000;
+    color: #ffffff;
+    border-radius: 15px;
+    font-size: 1rem;
+    background-color: #000000;
+    padding: 10px;
+}
+
+.btn:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.error {
+    margin: 50px;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.styling-card {
+    margin: 20px 50px;
+}
+
+.btn-styling {
+    display: flex;
+    justify-content: center;
+    padding: 15px 20px;
+    margin: 50px auto;
+}
+
+.head-two {
+    border: 4px solid #000000;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #000000;
+    margin: 50px 0px;
+    background-color: #0051ff;
+    text-align: center;
+}
+
+#reviews {
+    font-size: 1.2rem;
+    border: 5px solid #000000;
+    text-align: center;
+    background-color: #808080d8;
+    color: #000000;
+    padding: 20px;
+    margin: 40px 300px;
+    box-shadow: 3px 3px 2px 2px #000000;
+    border-radius: 50px;
+}
